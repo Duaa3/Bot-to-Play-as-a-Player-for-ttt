@@ -3,15 +3,15 @@
 	text-align: center;
 	background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149009911.jpg?w=1480&t=st=1679421910~exp=1679422510~hmac=524dab80cfb1ec9a3839a750904961a3931fd4979c4ea8f6e36f9b60bbcd3169');
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; /* cover the entire container with the background image */
 	padding: 50px;
 }
 
 h1 {
-	font-size: 70px;
+	font-size: 70px;/* set the font size for the header */
 	margin-top: 50px;
 	color: #1d5f9c;
-	text-shadow: 2px 2px #0c0297;
+	text-shadow: 2px 2px #0f059e;
 }
 
 .board {

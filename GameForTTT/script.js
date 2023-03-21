@@ -2,7 +2,7 @@ const squares = document.querySelectorAll('.square');
 const message = document.querySelector('#message');
 let currentPlayer = 'X';
 let gameActive = true;
-
+// Add event listener to each square, with function handleClick as the callback
 squares.forEach(square => {
   square.addEventListener('click', handleClick);
 });
@@ -19,7 +19,7 @@ function handleClick(event) {
   square.classList.add(currentPlayer.toLowerCase());
 
   checkWin();
-
+ // If game is still active, switch to next player and make bot move
   if (gameActive) {
     switchPlayer();
      makeBotMove(); // add this line to make the bot move after the player
@@ -106,9 +106,5 @@ function getBoardState() {
   }
   
 
-//setInterval(() => {
- // if (currentPlayer === 'O' && gameActive) {
-   // makeBotMove();
-  ///}
-//}, 1000);
+
 
